@@ -27,3 +27,4 @@ void loop() {
     Serial.println("nao entrou");//realiza o print na serial caso não tenha entrado na condicional a cima
   }
   estado_anterior_sensor = estado_atual_sensor; //momento em que a variável estado_anterior_sensor recebe seu valor  antes de entrar no próximo loop 
+}
